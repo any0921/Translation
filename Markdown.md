@@ -16,7 +16,7 @@ Markdown是一种在GitHub上可以用来设计各种形式写作的轻量级且
 
 ## Markdown是什么？
 
-[Markdown](http://daringfireball.net/projects/markdown)能在网络上设计文本。你可以分分钟用Markdow管理文档的显示，以粗体或者斜体排版，插图，创建列表~大多时候，Markdown只是加入了非常少量非字母字符的文本，比如`#`或`*`。
+[Markdown](http://daringfireball.net/projects/markdown)能在网络上设计文本。你可以分分钟用Markdow管理文档的显示，以粗体或者斜体排版，插图，创建列表~Markdown主要是些常规文本，只加入了非常少量的非字母字符，比如`#`或`*`。
 
 你能在GitHub的大部分场景使用Markdown：
 
@@ -31,7 +31,8 @@ Markdown是一种在GitHub上可以用来设计各种形式写作的轻量级且
 ### 文本 ###
 
 ```
-It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com）```
+It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com）
+```
 
 It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
 
@@ -59,7 +60,7 @@ It's very easy to make some words **bold** and other words *italic* with Markdow
 - 如果你要使用二级要点，在星号符或破折号前空两格：
   - 像这样
   - 还有这样
-  ```
+```
 
 有时你想要有序的列表：
 
@@ -84,7 +85,6 @@ It's very easy to make some words **bold** and other words *italic* with Markdow
 
 ### 图片 ###
 
-
 ```
 想要插图，需要这样做：
 
@@ -96,7 +96,6 @@ It's very easy to make some words **bold** and other words *italic* with Markdow
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ### 标题和引用 ###
-
 
 ```
 # 使文档结构化
@@ -340,5 +339,6 @@ mojombo/github-flavored-markdown#1
 
 ### Emoji ###
 
-GitHub支持emoji表情符啦~~~~`~\(≧▽≦)/~了
-To see a list of every image we support, check out the Emoji Cheat Sheet.
+GitHub支持emoji表情符啦:sparkles: :camel: :boom:
+
+了解所有支持的Emoji表情，请参阅“[Emoji cheat sheet](http://www.emoji-cheat-sheet.com/)”

@@ -4,19 +4,19 @@ Markdown是一种在GitHub上可以用来设计各种形式写作的轻量级且
 
 ##### 你将会学到： #####
 
-* Markdown格式是如何使得协作编辑设计变得容易
+* Markdown格式如何使得协作设计变得容易
 
-* Markdown是如何区别与传统格式化方法的
+* Markdown与传统格式化方法的区别
 
 * 如何使用Markdown来格式化文本
 
-* 如何补充GitHub的自动Markdown翻译
+* 如何利用GitHub的Markdown自动渲染
 
-* 如何扩展应用GitHub独有的Markdown
+* 如何使用GitHub独有的Markdown扩展功能
 
 ## Markdown是什么？
 
-[Markdown](http://daringfireball.net/projects/markdown)是一种在网页设计文本的方式。你可以分分钟用Markdow管理文档的显示，以粗体或者斜体排版，插图，创建列表~大多时候，Markdown只是加入了非常少量非字母字符的文本，比如`#`或`*`。
+[Markdown](http://daringfireball.net/projects/markdown)能在网络上设计文本。你可以分分钟用Markdow管理文档的显示，以粗体或者斜体排版，插图，创建列表~大多时候，Markdown只是加入了非常少量非字母字符的文本，比如`#`或`*`。
 
 你能在GitHub的大部分场景使用Markdown：
 
@@ -287,4 +287,58 @@ GitHub.com使用了其特有的Markdown语法版本，新加入一些有用的�
 
 ### 表格 ###
 
-我们可以创建表格！！！(Amazing! but...略复杂)组合列表的文字和连字符进行划分`-`（第一行），
+我们可以创建表格！！！(Amazing! but...略复杂)通过列表内文字并用连字符`-`划分这些文字来组合成第一行，再用管道符`|` 隔出每一列：
+
+
+```
+标题一 | 标题二
+------- | ------
+第一格内容 | 第二格内容
+第一列内容 | 第二列内容
+```
+
+效果如下～
+
+标题一 | 标题二
+------- | ------
+第一格内容 | 第二格内容
+第一列内容 | 第二列内容
+
+### 引用SHA ###
+
+任何提交中提到D的[SHA-1 hash内容](http://en.wikipedia.org/wiki/SHA-1)将被自动转化成链接，提交到GitHub上。
+
+
+```
+16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
+mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
+```
+
+### 同代码仓库中引用issue ###
+
+任何提到issue和Pull request的数字，都会被自动转化成链接。
+
+
+```
+#1
+mojombo#1
+mojombo/github-flavored-markdown#1
+```
+
+### 用户名 @点名 ###
+
+输入一个@符，紧跟一个用户名，将通知此人关注该评释，这就是一次@点名，因为你正被单独提到。你也可以用@点名同组织内各组人员。
+
+### URL的自动链接 ###
+
+任何URL（比如`http://www.github.com/`）将被自动转化成可点击的链接。
+
+### 删除线 ###
+
+任何用两条飘飘符括起来的文字（像 `~~这样~~`）将显示成带删除线效果。
+
+### Emoji ###
+
+GitHub支持emoji表情符啦~~~~`~\(≧▽≦)/~了
+To see a list of every image we support, check out the Emoji Cheat Sheet.
